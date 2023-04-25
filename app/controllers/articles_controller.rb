@@ -19,24 +19,24 @@ class ArticlesController < ApplicationController
 
     if @article.save
       flash[:notice] = 'Article was created successfully.'
-      redirect_to @article
+      redirect_to(@article)
     else
-      render :new
+      render(:new)
     end
   end
 
   def update
     if @article.update(article_params)
       flash[:notice] = 'Article was updated successfully.'
-      redirect_to @article
+      redirect_to(@article)
     else
-      render 'edit'
+      render(:edit)
     end
   end
 
   def destroy
     @article.destroy
-    redirect_to articles_path
+    redirect_to(articles_path)
   end
 
   private

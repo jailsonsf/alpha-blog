@@ -9,6 +9,11 @@
 
 *.env
 
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-*

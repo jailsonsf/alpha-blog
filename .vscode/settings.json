@@ -1,0 +1,11 @@
+{
+    "ruby.lint": {
+        "rubocop": true
+    },
+    "[ruby]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "misogi.ruby-rubocop"
+    },
+    "ruby.format": "rubocop",
+}

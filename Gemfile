@@ -47,6 +47,9 @@ group :development do
 
   # A library for generating fake data such as names, addresses, and phone numbers. https://github.com/faker-ruby/faker
   gem 'faker'
+
+  # Rails >= 3 pry initializer
+  gem 'pry-rails'
 end
 
 group :test do
